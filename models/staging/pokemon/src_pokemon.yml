@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: pokemon
+    database: til_portfolio_projects
+    schema: harvey_personal_project
+    tables:
+      - name: pokemon_json_table
+      - name: pokemon_species_json_table
+      - name: pokemon_move_json_table
+      - name: pokemon_ability_json_table
+      - name: pokemon_type_json_table
+      - name: pokemon_chain_json_table
